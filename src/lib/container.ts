@@ -7,6 +7,8 @@ import type {
 } from '../types';
 import { DurableObject } from 'cloudflare:workers';
 
+// Hello world
+
 /**
  * Params sent to `onStop` method when the container stops
  */
