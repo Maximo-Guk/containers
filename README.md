@@ -4,11 +4,19 @@ A class for interacting with Containers on Cloudflare Workers.
 
 ## Features
 
+
+
+
+
+
 - HTTP request proxying and WebSocket forwarding
 - Simple container lifecycle management (starting and stopping containers)
 - Event hooks for container lifecycle events (onStart, onStop, onError)
 - Configurable sleep timeout that renews on requests
 - Load balancing utilities
+
+
+
 
 ## Installation
 
