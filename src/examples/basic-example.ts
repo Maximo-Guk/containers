@@ -22,6 +22,8 @@ export class MyContainer extends Container {
     });
   }
 
+  console.log("HELLO!!!!")
+
   // Lifecycle method called when container starts
   override onStart(): void {
     console.log('Container started!');
