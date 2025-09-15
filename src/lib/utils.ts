@@ -19,6 +19,8 @@ export async function loadBalance<T extends Container>(
 
   // Return the stub for the selected instance
   return binding.get(objectId);
+
+  console.log('blerg')
 }
 
 export const singletonContainerId = 'cf-singleton-container';
